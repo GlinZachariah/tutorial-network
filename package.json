@@ -17,7 +17,7 @@
   ],
   "author": "holm35",
   "email": "glincool.zac@gmail.com",
-  "license": "y",
+  "license": "UNLICENSED",
   "devDependencies": {
     "composer-admin": "^0.19.13",
     "composer-cli": "^0.19.13",
@@ -32,5 +32,18 @@
     "nyc": "latest",
     "mkdirp": "latest",
     "mocha": "latest"
-  }
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlinZachariah/tutorial-network.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GlinZachariah/tutorial-network/issues"
+  },
+  "homepage": "https://github.com/GlinZachariah/tutorial-network#readme"
 }
